@@ -1,0 +1,490 @@
+2025-03-10 23:07:48,410 - __main__ - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:07:48,411 - unu.db - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:07:48,412 - unu.db - INFO - Veritabaný þemasý oluþturuluyor...
+2025-03-10 23:07:48,455 - unu.db - INFO - Veritabaný baðlantýsý baþarýlý!
+2025-03-10 23:07:48,455 - __main__ - INFO - Bot baþlatýlýyor...
+2025-03-10 23:07:48,478 - hydrogram.session.auth - INFO - Start creating a new auth key on DC2
+2025-03-10 23:07:48,478 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:07:48,545 - hydrogram.connection.connection - INFO - Connected! Production DC2 - IPv4
+2025-03-10 23:07:49,977 - hydrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2025-03-10 23:07:49,977 - hydrogram.connection.connection - INFO - Disconnected
+2025-03-10 23:07:49,977 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:07:50,063 - hydrogram.connection.connection - INFO - Connected! Production DC2 - IPv4
+2025-03-10 23:07:50,064 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:07:50,586 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:07:50,587 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:07:50,587 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:07:50,588 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:07:50,589 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:07:50,761 - hydrogram.session.session - INFO - PingTask stopped
+2025-03-10 23:07:50,761 - hydrogram.session.session - INFO - NetworkTask stopped
+2025-03-10 23:07:50,761 - hydrogram.connection.connection - INFO - Disconnected
+2025-03-10 23:07:50,761 - hydrogram.session.session - INFO - Session stopped
+2025-03-10 23:07:50,765 - hydrogram.session.auth - INFO - Start creating a new auth key on DC4
+2025-03-10 23:07:50,766 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:07:50,828 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:07:52,494 - hydrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2025-03-10 23:07:52,495 - hydrogram.connection.connection - INFO - Disconnected
+2025-03-10 23:07:52,496 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:07:52,576 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:07:52,577 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:07:52,944 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:07:52,944 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:07:52,945 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:07:52,945 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:07:52,946 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:07:53,318 - __main__ - ERROR - Bot çalýþtýrýlýrken hata oluþtu: 'charmap' codec can't decode byte 0x9d in position 10425: character maps to <undefined>
+2025-03-10 23:07:53,320 - __main__ - ERROR - Beklenmeyen hata: Client is already terminated
+2025-03-10 23:09:08,186 - __main__ - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:09:08,186 - unu.db - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:09:08,205 - unu.db - INFO - Veritabaný þemasý oluþturuluyor...
+2025-03-10 23:09:08,209 - unu.db - INFO - Veritabaný baðlantýsý baþarýlý!
+2025-03-10 23:09:08,209 - __main__ - INFO - Bot baþlatýlýyor...
+2025-03-10 23:09:08,219 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:09:08,286 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:09:08,288 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:09:08,641 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:09:08,641 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:09:08,641 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:09:08,641 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:09:08,641 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:09:09,077 - __main__ - ERROR - Bot çalýþtýrýlýrken hata oluþtu: while parsing a block mapping
+  in "locales\tr-TR.yml", line 1, column 1
+expected <block end>, but found '<scalar>'
+  in "locales\tr-TR.yml", line 60, column 15
+2025-03-10 23:09:09,077 - __main__ - ERROR - Beklenmeyen hata: Client is already terminated
+2025-03-10 23:10:57,308 - __main__ - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:10:57,308 - unu.db - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:10:57,324 - unu.db - INFO - Veritabaný þemasý oluþturuluyor...
+2025-03-10 23:10:57,335 - unu.db - INFO - Veritabaný baðlantýsý baþarýlý!
+2025-03-10 23:10:57,335 - __main__ - INFO - Bot baþlatýlýyor...
+2025-03-10 23:10:57,346 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:10:57,422 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:10:57,422 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:10:57,801 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:10:57,802 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:10:57,802 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:10:57,803 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:10:57,803 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:10:58,274 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,280 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,280 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('add_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,280 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('remove_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,281 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,281 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,282 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,282 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,282 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,283 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,283 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,284 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,284 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('kill_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,284 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,285 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:10:58,285 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('inline_query') in group 3 from 'unu.plugins.game'
+2025-03-10 23:10:58,286 - hydrogram.client - INFO - [uno_bot] [LOAD] ChosenInlineResultHandler('choosen') in group 1 from 'unu.plugins.game'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('theme') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('lang') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('info') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start') in group 0 from 'unu.plugins.start'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start') in group 0 from 'unu.plugins.start'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help') in group 0 from 'unu.plugins.start'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help_game') in group 0 from 'unu.plugins.start'
+2025-03-10 23:10:58,291 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:10:58,307 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:10:58,308 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('ch_status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_remove') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudo_themc') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_new') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,315 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_update') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,325 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_check') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,326 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('change') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:10:58,326 - hydrogram.client - INFO - [uno_bot] Successfully loaded 43 plugins from 'unu.plugins'
+2025-03-10 23:10:58,327 - hydrogram.dispatcher - INFO - Started 8 HandlerTasks
+2025-03-10 23:10:58,327 - __main__ - INFO - Bot baþarýyla baþlatýldý! Ctrl+C ile kapatabilirsiniz.
+2025-03-10 23:10:58,328 - __main__ - ERROR - Bot çalýþtýrýlýrken hata oluþtu: 'Client' object has no attribute 'idle'
+2025-03-10 23:10:58,328 - __main__ - ERROR - Beklenmeyen hata: Task <Task pending name='Task-1' coro=<main() running at D:\cursor\main.py:46> cb=[_run_until_complete_cb() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:181]> got Future <_GatheringFuture pending> attached to a different loop
+2025-03-10 23:13:41,973 - __main__ - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:13:41,973 - unu.db - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:13:41,976 - unu.db - INFO - Veritabaný þemasý oluþturuluyor...
+2025-03-10 23:13:41,976 - unu.db - INFO - Veritabaný baðlantýsý baþarýlý!
+2025-03-10 23:13:41,976 - __main__ - INFO - Bot baþlatýlýyor...
+2025-03-10 23:13:41,995 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:13:42,060 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:13:42,060 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:13:42,461 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:13:42,461 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:13:42,461 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:13:42,461 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:13:42,461 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('add_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('remove_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('kill_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('inline_query') in group 3 from 'unu.plugins.game'
+2025-03-10 23:13:42,893 - hydrogram.client - INFO - [uno_bot] [LOAD] ChosenInlineResultHandler('choosen') in group 1 from 'unu.plugins.game'
+2025-03-10 23:13:42,906 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:13:42,907 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:13:42,908 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:13:42,909 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:13:42,910 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('theme') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:13:42,910 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('lang') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:13:42,911 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('info') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:13:42,913 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start') in group 0 from 'unu.plugins.start'
+2025-03-10 23:13:42,913 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start') in group 0 from 'unu.plugins.start'
+2025-03-10 23:13:42,914 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help') in group 0 from 'unu.plugins.start'
+2025-03-10 23:13:42,914 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help_game') in group 0 from 'unu.plugins.start'
+2025-03-10 23:13:42,914 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:13:42,915 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:13:42,915 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('ch_status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:13:42,918 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,918 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,919 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,919 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,919 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_remove') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,919 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudo_themc') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,919 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_new') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,919 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,919 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,924 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_update') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,925 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_check') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,925 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('change') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:13:42,926 - hydrogram.client - INFO - [uno_bot] Successfully loaded 43 plugins from 'unu.plugins'
+2025-03-10 23:13:42,926 - hydrogram.dispatcher - INFO - Started 8 HandlerTasks
+2025-03-10 23:13:42,926 - __main__ - INFO - Bot baþarýyla baþlatýldý! Ctrl+C ile kapatabilirsiniz.
+2025-03-10 23:13:42,927 - __main__ - ERROR - Bot çalýþtýrýlýrken hata oluþtu: 
+2025-03-10 23:13:42,930 - __main__ - ERROR - Bot kapatýlýrken hata oluþtu: Task <Task pending name='Task-1' coro=<main() running at D:\cursor\main.py:61> cb=[_run_until_complete_cb() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:181]> got Future <_GatheringFuture pending> attached to a different loop
+2025-03-10 23:13:42,931 - __main__ - ERROR - Beklenmeyen hata: 
+2025-03-10 23:15:03,959 - __main__ - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:15:03,959 - unu.db - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:15:03,959 - unu.db - INFO - Veritabaný þemasý oluþturuluyor...
+2025-03-10 23:15:03,973 - unu.db - INFO - Veritabaný baðlantýsý baþarýlý!
+2025-03-10 23:15:03,974 - __main__ - INFO - Bot baþlatýlýyor...
+2025-03-10 23:15:03,981 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:15:04,043 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:15:04,043 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:15:04,444 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:15:04,444 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:15:04,444 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:15:04,444 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:15:04,444 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:15:04,926 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,926 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,926 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('add_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,926 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('remove_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,926 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,939 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,940 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,941 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,941 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,941 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,942 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,942 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,943 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('kill_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,943 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,944 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:15:04,944 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('inline_query') in group 3 from 'unu.plugins.game'
+2025-03-10 23:15:04,944 - hydrogram.client - INFO - [uno_bot] [LOAD] ChosenInlineResultHandler('choosen') in group 1 from 'unu.plugins.game'
+2025-03-10 23:15:04,948 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('theme') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('lang') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('info') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start') in group 0 from 'unu.plugins.start'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start') in group 0 from 'unu.plugins.start'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help') in group 0 from 'unu.plugins.start'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help_game') in group 0 from 'unu.plugins.start'
+2025-03-10 23:15:04,949 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:15:04,956 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:15:04,956 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('ch_status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:15:04,959 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,960 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,961 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,961 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,961 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_remove') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,962 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudo_themc') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,962 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_new') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,963 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,963 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,964 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_update') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,964 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_check') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,964 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('change') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:15:04,965 - hydrogram.client - INFO - [uno_bot] Successfully loaded 43 plugins from 'unu.plugins'
+2025-03-10 23:15:04,965 - hydrogram.dispatcher - INFO - Started 8 HandlerTasks
+2025-03-10 23:15:04,966 - __main__ - INFO - Bot baþarýyla baþlatýldý! Ctrl+C ile kapatabilirsiniz.
+2025-03-10 23:17:37,930 - __main__ - INFO - Kapatma sinyali alýndý. Bot kapatýlýyor...
+2025-03-10 23:17:38,930 - __main__ - INFO - Bot kapatýlýyor...
+2025-03-10 23:17:38,930 - __main__ - ERROR - Bot kapatýlýrken hata oluþtu: Task <Task pending name='Task-1' coro=<main() running at D:\cursor\main.py:70> cb=[_run_until_complete_cb() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:181]> got Future <_GatheringFuture pending> attached to a different loop
+2025-03-10 23:19:03,118 - __main__ - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:19:03,118 - unu.db - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:19:03,118 - unu.db - INFO - Veritabaný þemasý oluþturuluyor...
+2025-03-10 23:19:03,132 - unu.db - INFO - Veritabaný baðlantýsý baþarýlý!
+2025-03-10 23:19:03,133 - __main__ - INFO - Bot baþlatýlýyor...
+2025-03-10 23:19:03,138 - hydrogram.session.auth - INFO - Start creating a new auth key on DC2
+2025-03-10 23:19:03,139 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:19:03,202 - hydrogram.connection.connection - INFO - Connected! Production DC2 - IPv4
+2025-03-10 23:19:04,772 - hydrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2025-03-10 23:19:04,772 - hydrogram.connection.connection - INFO - Disconnected
+2025-03-10 23:19:04,772 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:19:04,833 - hydrogram.connection.connection - INFO - Connected! Production DC2 - IPv4
+2025-03-10 23:19:04,833 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:19:05,183 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:19:05,183 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:19:05,183 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:19:05,183 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:19:05,184 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:19:05,276 - hydrogram.session.session - INFO - PingTask stopped
+2025-03-10 23:19:05,276 - hydrogram.session.session - INFO - NetworkTask stopped
+2025-03-10 23:19:05,277 - hydrogram.connection.connection - INFO - Disconnected
+2025-03-10 23:19:05,277 - hydrogram.session.session - INFO - Session stopped
+2025-03-10 23:19:05,278 - hydrogram.session.auth - INFO - Start creating a new auth key on DC4
+2025-03-10 23:19:05,278 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:19:05,354 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:19:07,158 - hydrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2025-03-10 23:19:07,158 - hydrogram.connection.connection - INFO - Disconnected
+2025-03-10 23:19:07,158 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:19:07,225 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:19:07,225 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:19:07,616 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:19:07,617 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:19:07,617 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:19:07,618 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:19:07,619 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('add_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('remove_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('kill_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('inline_query') in group 3 from 'unu.plugins.game'
+2025-03-10 23:19:08,222 - hydrogram.client - INFO - [uno_bot] [LOAD] ChosenInlineResultHandler('choosen') in group 1 from 'unu.plugins.game'
+2025-03-10 23:19:08,233 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:19:08,234 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:19:08,234 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:19:08,235 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:19:08,236 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('theme') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:19:08,236 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('lang') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:19:08,237 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('info') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:19:08,241 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:19:08,242 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:19:08,242 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('help_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:19:08,243 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help_game') in group 0 from 'unu.plugins.start'
+2025-03-10 23:19:08,244 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('status_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:19:08,244 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('status_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:19:08,244 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('ch_status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:19:08,249 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,250 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,250 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,251 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,251 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_remove') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,252 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudo_themc') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,252 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_new') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,253 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,254 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,254 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_update') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,255 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_check') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,255 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('change') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:19:08,256 - hydrogram.client - INFO - [uno_bot] Successfully loaded 43 plugins from 'unu.plugins'
+2025-03-10 23:19:08,256 - hydrogram.dispatcher - INFO - Started 6 HandlerTasks
+2025-03-10 23:19:08,257 - __main__ - INFO - Bot baþarýyla baþlatýldý! Ctrl+C ile kapatabilirsiniz.
+2025-03-10 23:20:01,208 - __main__ - INFO - Kapatma sinyali alýndý. Bot kapatýlýyor...
+2025-03-10 23:20:01,576 - __main__ - INFO - Bot kapatýlýyor...
+2025-03-10 23:20:01,576 - __main__ - ERROR - Bot kapatýlýrken hata oluþtu: Task <Task pending name='Task-1' coro=<main() running at D:\cursor\main.py:70> cb=[_run_until_complete_cb() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:181]> got Future <_GatheringFuture pending> attached to a different loop
+2025-03-10 23:21:32,885 - __main__ - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:21:32,885 - unu.db - INFO - Veritabanýna baðlanýlýyor...
+2025-03-10 23:21:32,902 - unu.db - INFO - Veritabaný þemasý oluþturuluyor...
+2025-03-10 23:21:32,906 - unu.db - INFO - Veritabaný baðlantýsý baþarýlý!
+2025-03-10 23:21:32,907 - __main__ - INFO - Bot baþlatýlýyor...
+2025-03-10 23:21:32,911 - hydrogram.session.auth - INFO - Start creating a new auth key on DC2
+2025-03-10 23:21:32,911 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:21:32,969 - hydrogram.connection.connection - INFO - Connected! Production DC2 - IPv4
+2025-03-10 23:21:34,337 - hydrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2025-03-10 23:21:34,337 - hydrogram.connection.connection - INFO - Disconnected
+2025-03-10 23:21:34,340 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:21:34,420 - hydrogram.connection.connection - INFO - Connected! Production DC2 - IPv4
+2025-03-10 23:21:34,421 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:21:34,810 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:21:34,811 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:21:34,811 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:21:34,811 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:21:34,812 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:21:34,887 - hydrogram.session.session - INFO - PingTask stopped
+2025-03-10 23:21:34,887 - hydrogram.session.session - INFO - NetworkTask stopped
+2025-03-10 23:21:34,887 - hydrogram.connection.connection - INFO - Disconnected
+2025-03-10 23:21:34,887 - hydrogram.session.session - INFO - Session stopped
+2025-03-10 23:21:34,904 - hydrogram.session.auth - INFO - Start creating a new auth key on DC4
+2025-03-10 23:21:34,904 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:21:34,971 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:21:36,509 - hydrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2025-03-10 23:21:36,509 - hydrogram.connection.connection - INFO - Disconnected
+2025-03-10 23:21:36,509 - hydrogram.connection.connection - INFO - Connecting...
+2025-03-10 23:21:36,597 - hydrogram.connection.connection - INFO - Connected! Production DC4 - IPv4
+2025-03-10 23:21:36,598 - hydrogram.session.session - INFO - NetworkTask started
+2025-03-10 23:21:37,012 - hydrogram.session.session - INFO - Session initialized: Layer 181
+2025-03-10 23:21:37,013 - hydrogram.session.session - INFO - Device: CPython 3.12.9 - Hydrogram 0.2.0
+2025-03-10 23:21:37,013 - hydrogram.session.session - INFO - System: Windows 10 (en)
+2025-03-10 23:21:37,014 - hydrogram.session.session - INFO - Session started
+2025-03-10 23:21:37,015 - hydrogram.session.session - INFO - PingTask started
+2025-03-10 23:21:37,607 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,607 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('new_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('add_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('remove_card') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('join_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('leave_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('close_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('open_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('kill_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start_game') in group 0 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('inline_query') in group 3 from 'unu.plugins.game'
+2025-03-10 23:21:37,608 - hydrogram.client - INFO - [uno_bot] [LOAD] ChosenInlineResultHandler('choosen') in group 1 from 'unu.plugins.game'
+2025-03-10 23:21:37,616 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:21:37,617 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_pvt') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:21:37,618 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:21:37,618 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_and_mode') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:21:37,619 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('theme') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:21:37,619 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('lang') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:21:37,620 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('info') in group 0 from 'unu.plugins.settings'
+2025-03-10 23:21:37,624 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:21:37,625 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:21:37,625 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('help_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:21:37,626 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('help_game') in group 0 from 'unu.plugins.start'
+2025-03-10 23:21:37,627 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('status_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:21:37,627 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('status_command') in group 0 from 'unu.plugins.start'
+2025-03-10 23:21:37,628 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('ch_status') in group 0 from 'unu.plugins.start'
+2025-03-10 23:21:37,630 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,632 - hydrogram.client - INFO - [uno_bot] [LOAD] MessageHandler('start') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,632 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,632 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,632 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudos_remove') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,635 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_sudo_themc') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,635 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_new') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,636 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,636 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_add') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,636 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_update') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,637 - hydrogram.client - INFO - [uno_bot] [LOAD] CallbackQueryHandler('settings_themes_check') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,638 - hydrogram.client - INFO - [uno_bot] [LOAD] InlineQueryHandler('change') in group 0 from 'unu.plugins.sudos'
+2025-03-10 23:21:37,638 - hydrogram.client - INFO - [uno_bot] Successfully loaded 43 plugins from 'unu.plugins'
+2025-03-10 23:21:37,638 - hydrogram.dispatcher - INFO - Started 6 HandlerTasks
+2025-03-10 23:21:37,639 - __main__ - INFO - Bot baþarýyla baþlatýldý! Ctrl+C ile kapatabilirsiniz.
+2025-03-10 23:27:05,421 - __main__ - INFO - Kapatma sinyali alýndý. Bot kapatýlýyor...
+2025-03-10 23:27:05,553 - __main__ - INFO - Bot kapatýlýyor...
+2025-03-10 23:27:05,554 - __main__ - ERROR - Bot kapatýlýrken hata oluþtu: Task <Task pending name='Task-1' coro=<main() running at D:\cursor\main.py:70> cb=[_run_until_complete_cb() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:181]> got Future <_GatheringFuture pending> attached to a different loop
+2025-03-10 23:31:48,560 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-10 23:31:48,560 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-10 23:31:48,560 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-10 23:36:00,285 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-10 23:36:00,307 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-10 23:36:00,375 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-10 23:37:19,804 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-10 23:37:19,819 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-10 23:37:19,823 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-10 23:40:06,715 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-10 23:40:06,720 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-10 23:40:06,724 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-10 23:44:42,474 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-10 23:44:42,491 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-10 23:44:42,496 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-10 23:46:22,220 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-10 23:46:22,220 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-10 23:46:22,236 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-10 23:48:10,755 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-10 23:48:10,757 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-10 23:48:10,757 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-10 23:50:09,153 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-10 23:50:09,153 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-10 23:50:09,165 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-10 23:50:11,481 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± kapatÄ±ldÄ±.
+2025-03-10 23:52:33,129 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-10 23:52:33,145 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-10 23:52:33,145 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-10 23:52:35,065 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± kapatÄ±ldÄ±.
+2025-03-11 00:01:50,273 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:01:50,273 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:01:50,290 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:01:52,853 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± kapatÄ±ldÄ±.
+2025-03-11 00:06:01,446 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:06:01,459 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:06:01,464 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:06:03,682 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± kapatÄ±ldÄ±.
+2025-03-11 00:08:44,226 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:08:44,226 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:08:44,241 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:08:48,894 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± kapatÄ±ldÄ±.
+2025-03-11 00:11:36,616 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:11:36,622 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:11:36,627 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:14:37,595 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:14:37,611 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:14:37,617 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:14:42,364 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± kapatÄ±ldÄ±.
+2025-03-11 00:16:10,818 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:16:10,823 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:16:10,823 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:21:21,955 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:21:21,960 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:21:21,967 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:26:23,583 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:26:23,598 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:26:23,605 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:28:00,321 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:28:00,321 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:28:00,321 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:31:55,880 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:31:55,880 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:31:55,894 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:34:55,892 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:34:55,892 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:34:55,907 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:38:09,448 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:38:09,448 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:38:09,461 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:40:04,114 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:40:04,130 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:40:04,130 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:40:06,169 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± kapatÄ±ldÄ±.
+2025-03-11 00:40:34,017 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:40:34,034 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:40:34,041 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:49:45,692 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:49:45,705 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:49:45,713 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
+2025-03-11 00:55:58,406 - unu.db - INFO - VeritabanÄ±na baÄŸlanÄ±lÄ±yor...
+2025-03-11 00:55:58,422 - unu.db - INFO - VeritabanÄ± ÅŸemasÄ± oluÅŸturuluyor...
+2025-03-11 00:55:58,429 - unu.db - INFO - VeritabanÄ± baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±!
