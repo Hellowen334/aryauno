@@ -4,6 +4,7 @@
 # Dosya yapısını göster (debug için)
 echo "Dosya yapısı:"
 ls -la
+ls -la unu/
 
 # Ana dizini göster
 echo "Çalışma dizini: $(pwd)"
@@ -11,14 +12,21 @@ echo "Çalışma dizini: $(pwd)"
 # Python sürümünü göster
 echo "Python sürümü: $(python --version)"
 
-# main.py dosyasını bul
-MAIN_PY=$(find . -name "main.py" | head -n 1)
-
-if [ -z "$MAIN_PY" ]; then
-    echo "HATA: main.py dosyası bulunamadı!"
-    exit 1
-else
-    echo "main.py dosyası bulundu: $MAIN_PY"
+# unu klasöründeki main.py dosyasını çalıştır
+if [ -f "unu/main.py" ]; then
+    echo "main.py dosyası bulundu: unu/main.py"
     # Botu başlat
-    python $MAIN_PY
+    python unu/main.py
+else
+    echo "HATA: unu/main.py dosyası bulunamadı!"
+    
+    # Ana dizindeki main.py dosyasını kontrol et
+    if [ -f "main.py" ]; then
+        echo "Ana dizinde main.py bulundu, kopyalanıyor..."
+        cp main.py unu/main.py
+        python unu/main.py
+    else
+        echo "Hiçbir main.py dosyası bulunamadı!"
+        exit 1
+    fi
 fi 
