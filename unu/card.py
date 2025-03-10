@@ -53,5 +53,13 @@ cards = {}
 for filename in os.listdir("cards"):
     if filename.endswith(".json"):
         name = filename.split(".")[0]
-        with Path(f"cards/{filename}").open(encoding="locale") as f:
-            cards[name] = json.load(f)
+        try:
+            # UTF-8 kodlaması ile dosyayı aç
+            with Path(f"cards/{filename}").open(encoding="utf-8") as f:
+                cards[name] = json.load(f)
+        except UnicodeDecodeError:
+            # UTF-8 ile açılamazsa, latin-1 ile dene
+            with Path(f"cards/{filename}").open(encoding="latin-1") as f:
+                cards[name] = json.load(f)
+        except Exception as e:
+            print(f"Kart dosyası yüklenirken hata: {filename} - {e}")

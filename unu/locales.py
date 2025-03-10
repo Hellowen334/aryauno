@@ -14,7 +14,7 @@ if TYPE_CHECKING:
     from unu.game import Game
 
 
-default_language = "en-US"
+default_language = "tr-TR"
 
 
 def load_locales() -> dict[str, dict[str, str]]:
@@ -73,9 +73,16 @@ def use_user_lang():
     def decorator(func):
         @wraps(func)
         async def wrapper(client: Client, message: CallbackQuery | Message):
-            ulang = (await User.get_or_create(id=message.from_user.id))[0].lang
-            ulfunc = partial(get_locale_string, ulang)
-            return await func(client, message, ulfunc)
+            try:
+                ulang = (await User.get_or_create(id=message.from_user.id))[0].lang
+                ulfunc = partial(get_locale_string, ulang)
+                return await func(client, message, ulfunc)
+            except Exception as e:
+                import logging
+                logging.getLogger('root').error(f"Dil işlenirken hata: {e}")
+                # Varsayılan dili kullan
+                ulfunc = partial(get_locale_string, default_language)
+                return await func(client, message, ulfunc)
 
         return wrapper
 
@@ -83,5 +90,21 @@ def use_user_lang():
 
 
 def get_locale_string(language: str, key: str) -> str:
-    print(f"Getting {key} for {language}")
-    return langdict[language].get(key) or langdict[default_language].get(key) or key
+    try:
+        if not isinstance(key, str):
+            key = str(key)
+        
+        if language not in langdict:
+            language = default_language
+            
+        result = langdict[language].get(key)
+        if result is None:
+            result = langdict[default_language].get(key)
+        if result is None:
+            result = key
+            
+        return result
+    except Exception as e:
+        import logging
+        logging.getLogger('root').error(f"Dil çevirisi hatası: {e}, dil: {language}, anahtar: {key}")
+        return key

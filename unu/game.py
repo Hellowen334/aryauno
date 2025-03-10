@@ -6,14 +6,26 @@ if TYPE_CHECKING:
     from asyncio.tasks import Task
 
 from hydrogram.types import Chat, Message, User
+from hydrogram.enums import ChatType
 
-from config import bot, games, timeout
+from config import (
+    bot, games, timeout, ALLOWED_CHAT_TYPES,
+    MAX_PLAYERS_PER_GAME, MAX_GAMES_PER_USER, MAX_CONCURRENT_GAMES
+)
 from unu.db import GameModel
 from unu.deck import Deck
 
 
 class Game:
     def __init__(self, chat: Chat, theme) -> None:
+        # Chat tipi kontrolü
+        if chat.type not in ALLOWED_CHAT_TYPES:
+            raise ValueError("Bu oyun sadece gruplarda oynanabilir!")
+
+        # Maksimum oyun sayısı kontrolü
+        if len(games) >= MAX_CONCURRENT_GAMES:
+            raise ValueError("Maksimum aktif oyun sayısına ulaşıldı!")
+
         self.theme = theme
         self.chat: Chat = chat
         self.last_card: tuple = None
@@ -32,6 +44,20 @@ class Game:
         self.message: Message = None
         self.is_dev = False
         self.bluff = False
+
+    async def add_player(self, user: User) -> None:
+        # Oyuncu sayısı kontrolü
+        if len(self.players) >= MAX_PLAYERS_PER_GAME:
+            raise ValueError("Maksimum oyuncu sayısına ulaşıldı!")
+
+        # Kullanıcının aktif oyun kontrolü
+        active_games = sum(1 for game in games.values() if user.id in game.players)
+        if active_games >= MAX_GAMES_PER_USER:
+            raise ValueError("Maksimum aktif oyun sayısına ulaştınız!")
+
+        self.players[user.id] = user
+        user.cards = self.deck.draw(7)
+        user.total_cards = 7
 
     def next(self):
         self.drawed = False
@@ -63,67 +89,84 @@ class Game:
         await asyncio.sleep(self.timer_duration)
         if self.chat.id in games and games[self.chat.id] == self:
             await bot.send_message(
-                self.chat.id, f"Time's up! {self.next_player.first_name} has been skipped."
+                self.chat.id, f"Süre doldu! {self.next_player.first_name} atlandı."
             )
             self.next()
-            await bot.send_message(self.chat.id, f"{self.next_player.first_name}'s turn.")
+            await bot.send_message(self.chat.id, f"Sıra {self.next_player.first_name}'de.")
 
     async def save(self):
-        print("Saving game")
-        players_dict = {
-            player_id: {"cards": getattr(player, "cards", None), "tcards": getattr(player, "total_cards", None)} for player_id, player in self.players.items()
-        }
+        try:
+            print("Saving game")
+            players_dict = {
+                player_id: {
+                    "cards": getattr(player, "cards", None),
+                    "tcards": getattr(player, "total_cards", None)
+                } for player_id, player in self.players.items()
+            }
 
-        game = GameModel(
-            id=id(self),
-            theme=self.theme,
-            chat_id=self.chat.id,
-            last_card=self.last_card,
-            last_card_2=self.last_card_2,
-            next_player_id=self.next_player.id if self.next_player else None,
-            deck=json.dumps(self.deck.cards),
-            players=players_dict,
-            is_started=self.is_started,
-            draw=self.draw,
-            drawed=self.drawed,
-            chosen=self.chosen,
-            closed=self.closed,
-            winner=self.winner,
-            is_dev=self.is_dev,
-            bluff=self.bluff,
-            timer_duration=self.timer_duration,
-            message_id=self.message.id,
-        )
-        if self.timer_task:
-            self.timer_task.cancel()
-        await game.save()
-        print("Game saved")
+            game = GameModel(
+                id=id(self),
+                theme=self.theme,
+                chat_id=self.chat.id,
+                last_card=self.last_card,
+                last_card_2=self.last_card_2,
+                next_player_id=self.next_player.id if self.next_player else None,
+                deck=json.dumps(self.deck.cards),
+                players=players_dict,
+                is_started=self.is_started,
+                draw=self.draw,
+                drawed=self.drawed,
+                chosen=self.chosen,
+                closed=self.closed,
+                winner=self.winner,
+                is_dev=self.is_dev,
+                bluff=self.bluff,
+                timer_duration=self.timer_duration,
+                message_id=self.message.id,
+            )
+            if self.timer_task:
+                self.timer_task.cancel()
+            await game.save()
+            print("Game saved")
+        except Exception as e:
+            print(f"Oyun kaydedilirken hata oluştu: {e}")
+            raise
 
     @classmethod
     async def load(cls, game: GameModel):
-        chat = await bot.get_chat(game.chat_id)
-        self = cls(chat, game.theme)
-        self.theme = game.theme
-        self.chat = await bot.get_chat(game.chat_id)
-        self.last_card = game.last_card
-        self.last_card_2 = game.last_card_2
-        self.deck.cards = game.deck
-        self.players = {}
-        self.is_started = game.is_started
-        self.draw = game.draw
-        self.drawed = game.drawed
-        self.chosen = game.chosen
-        self.closed = game.closed
-        self.winner = game.winner
-        self.is_dev = game.is_dev
-        self.bluff = game.bluff
-        self.timer_duration = game.timer_duration
-        self.message = await bot.get_messages(game.chat_id, game.message_id)
-        for player_id, cards in game.players.items():
-            self.players[int(player_id)] = await bot.get_users(player_id)
-            self.players[int(player_id)].cards = []
-            for card in cards["cards"]:
-                self.players[int(player_id)].cards.append(tuple(card))
-            self.players[int(player_id)].total_cards = cards["tcards"]
-        self.next_player = self.players[int(game.next_player_id)] if game.next_player_id else None
-        return self
+        try:
+            chat = await bot.get_chat(game.chat_id)
+            self = cls(chat, game.theme)
+            self.theme = game.theme
+            self.chat = await bot.get_chat(game.chat_id)
+            self.last_card = game.last_card
+            self.last_card_2 = game.last_card_2
+            self.deck.cards = game.deck
+            self.players = {}
+            self.is_started = game.is_started
+            self.draw = game.draw
+            self.drawed = game.drawed
+            self.chosen = game.chosen
+            self.closed = game.closed
+            self.winner = game.winner
+            self.is_dev = game.is_dev
+            self.bluff = game.bluff
+            self.timer_duration = game.timer_duration
+            self.message = await bot.get_messages(game.chat_id, game.message_id)
+
+            for player_id, cards in game.players.items():
+                try:
+                    self.players[int(player_id)] = await bot.get_users(player_id)
+                    self.players[int(player_id)].cards = []
+                    for card in cards["cards"]:
+                        self.players[int(player_id)].cards.append(tuple(card))
+                    self.players[int(player_id)].total_cards = cards["tcards"]
+                except Exception as e:
+                    print(f"Oyuncu {player_id} yüklenirken hata: {e}")
+                    continue
+
+            self.next_player = self.players[int(game.next_player_id)] if game.next_player_id else None
+            return self
+        except Exception as e:
+            print(f"Oyun yüklenirken hata oluştu: {e}")
+            raise
